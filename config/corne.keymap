@@ -176,6 +176,7 @@
         compatible = "zmk,keymap";
 
         main {
+                display-name = "Main";
             // -----------------------------------------------------------------------------------------
             // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |
             // |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |
@@ -191,6 +192,7 @@
         };
 
         nav {
+                display-name = "Nav";
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -206,6 +208,7 @@
         };
 
         media {
+                display-name = "Media";
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -221,6 +224,7 @@
         };
 
         symbols {
+                display-name = "Symbols";
             bindings = <
 &trans  &kp Q      &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp F5      &kp DOLLAR  &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
 &trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS    &kp EQUAL   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp BACKSLASH      &kp ENTER
@@ -230,6 +234,7 @@
         };
 
         reset {
+                display-name = "Reset";
             bindings = <
 &trans  &trans  &trans  &bt BT_CLR      &trans  &bt BT_NXT    &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 3  &trans  &trans
 &trans  &trans  &trans  &bt BT_CLR_ALL  &trans  &bt BT_PRV    &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 4  &trans  &trans
@@ -239,6 +244,7 @@
         };
 
         numrow {
+                display-name = "Numrow";
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &trans  &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp N6         &kp N7     &kp N8     &kp N9                &kp N0                 &kp SINGLE_QUOTE
