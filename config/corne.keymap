@@ -74,99 +74,15 @@
     combos {
         compatible = "zmk,combos";
 
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <13 29>;
+        jv_paste {
+            bindings = <&kp RG(V)>;
+            key-positions = <19 28>;
+            layers = <0>;
         };
 
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <15 21>;
-        };
-
-        perc {
-            bindings = <&kp PERCENT>;
-            key-positions = <5 17>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <28 16>;
-        };
-
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <4 16>;
-        };
-
-        pound {
-            bindings = <&kp POUND>;
-            key-positions = <3 15>;
-        };
-
-        at {
-            bindings = <&kp AT>;
-            key-positions = <2 14>;
-        };
-
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <26 14>;
-        };
-
-        copy {
-            bindings = <&kp K_COPY>;
-            key-positions = <28 27>;
-        };
-
-        paste {
-            bindings = <&kp K_PASTE>;
-            key-positions = <26 27>;
-        };
-
-        star {
-            bindings = <&kp STAR>;
-            key-positions = <8 20>;
-        };
-
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <32 20>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <7 19>;
-        };
-
-        minus {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <31 19>;
-        };
-
-        underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <30 18>;
-        };
-
-        leftbrack {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <31 32>;
-        };
-
-        rightbrack {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <33 32>;
-        };
-
-        para-less {
-            bindings = <&paraless>;
-            key-positions = <20 19>;
-        };
-
-        para-great {
-            bindings = <&paragreat>;
-            key-positions = <20 21>;
+        jc_copy {
+            bindings = <&kp RG(C)>;
+            key-positions = <19 27>;
         };
     };
 
@@ -214,7 +130,7 @@
 
             bindings = <
 &trans  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS    &trans  &kp K_MUTE  &kp C_VOLUME_UP    &kp O   &kp P   &kp BACKSPACE
-&trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0       &trans  &kp J       &kp C_VOLUME_DOWN  &kp L   &trans  &kp APOSTROPHE
+&trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0       &trans  &kp J       &kp C_VOLUME_DOWN  &kp L   &none   &kp APOSTROPHE
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS     &trans  &trans      &trans             &trans  &trans  &trans
                               &trans        &trans        &trans       &trans  &trans      &trans
             >;
@@ -222,10 +138,10 @@
 
         symbols {
             bindings = <
-&trans  &kp Q      &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp F5      &kp DOLLAR  &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
-&trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS    &kp EQUAL   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp BACKSLASH      &kp ENTER
-&trans  &kp TILDE  &kp POUND     &kp AT          &kp LEFT_BRACKET      &kp PIPE    &kp POUND   &kp BACKSLASH          &kp CARET        &kp PERIOD        &kp SLASH          &trans
-                                 &trans          &trans                &trans      &trans      &trans                 &trans
+&trans  &kp Q      &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
+&trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &kp ENTER
+&trans  &kp TILDE  &kp POUND     &kp AT          &kp LEFT_BRACKET      &kp PIPE       &kp BACKSLASH  &kp POUND              &kp CARET        &kp PERIOD        &kp SLASH          &trans
+                                 &trans          &trans                &trans         &trans         &trans                 &trans
             >;
         };
 
@@ -242,7 +158,7 @@
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &trans  &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp N6         &kp N7     &kp N8     &kp N9                &kp N0                 &kp SINGLE_QUOTE
-&trans  &trans    &trans  &trans     &trans      &trans         &kp N          &kp M      &kp COMMA  &kp PERIOD            &kp SLASH              &sk RIGHT_SHIFT
+&trans  &kp Z     &kp X   &kp C      &kp V       &kp B          &kp N          &kp M      &kp COMMA  &kp PERIOD            &kp SLASH              &sk RIGHT_SHIFT
                           &trans     &trans      &trans         &kp BACKSPACE  &kp ENTER  &trans
             >;
         };
