@@ -143,7 +143,11 @@
         };
 
         symbols {
-            display-name = "Symbols";
+#ifdef KEYMAP_DRAWER
+                display-name = "Symbol";
+#else
+                display-name = "Symbols";
+#endif
             bindings = <
 &trans  &kp Q      &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
 &trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &kp ENTER
