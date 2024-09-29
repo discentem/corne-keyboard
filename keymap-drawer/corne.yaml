@@ -40,7 +40,7 @@ layers:
   - ''
   - {t: Shift, h: sticky}
   - Numrow
-  - symbols
+  - Symbols
   - {t: SPACE, h: Nav}
   - ''
   Nav:
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  symbols:
+  Symbols:
   - {t: ▽, type: trans}
   - Q
   - '*'
