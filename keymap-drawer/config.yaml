@@ -1,30 +1,41 @@
 parse_config:
+  raw_binding_map:
+    '&hm LCTRL S': "CTRL / S"
+    '&hm LEFT_ALT D': "ALT / D"
+    '&hm LEFT_COMMAND F': "CMD / F"
+    '&hm LEFT_COMMAND J': "CMD / J"
+    '&hm RIGHT_ALT K': "ALT / K"
+    '&hm RCTRL L': "CTRL / L" 
+    '&zoom_in': "Zoom In"
+    '&zoom_out': "Zoom Out"
+    '&kp LS(LG(KP_NUMBER_5))': "SCREEN SHOT"
+
+
   zmk_keycode_map:
     # custom mappings
-    C_VOL_UP: Vol Up
-    C_VOL_DN: Vol Down
-    C_AL_CALC: Calc
-    C_PP: Play Pause
+    C_VOLUME_UP: Vol Up
+    C_VOLUME_DOWN: Vol Down
+    K_MUTE: Mute
 
     LCTRL: Ctrl
     RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
+    LEFT_ALT: Alt
+    RIGHT_ALT: Alt
+    LEFT_COMMAND: CMD
+    RIGHT_COMMAND: CMD
     LEFT_SHIFT: Shift
     RIGHT_SHIFT: Shift
     ESC: Esc
-    SPACE: ␣
-    BACKSPACE: ⌫
-    RET: ⏎
+    SPACE: SPACE
+    BACKSPACE: BACK
+    RET: ENTER
     TAB: TAB
-    DEL: ⌦
+    DEL: DEL
 
-    UP_ARROW: ↑
-    DOWN_ARROW: ↓
-    LEFT_ARROW: ←
-    RIGHT_ARROW: →
+    UP_ARROW: UP
+    DOWN_ARROW: DOWN
+    LEFT_ARROW: LEFT
+    RIGHT_ARROW: RIGHT
 
     C_PP: ⏯
     C_NEXT: ⏭️
@@ -96,6 +107,5 @@ parse_config:
     UNDER: _
     UNDERSCORE: _
 draw_config:
-  footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
   dark_mode: auto
   separate_combo_diagrams: true
