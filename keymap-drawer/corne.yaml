@@ -60,7 +60,7 @@ layers:
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CMD
+  - Esc
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
