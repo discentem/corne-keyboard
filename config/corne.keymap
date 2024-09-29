@@ -150,8 +150,6 @@
 &trans  &kp TILDE  &kp POUND     &kp AT          &kp LEFT_BRACKET      &kp PIPE       &kp BACKSLASH  &kp POUND              &kp CARET        &kp PERIOD        &kp SLASH          &trans
                                  &trans          &trans                &trans         &trans         &trans                 &trans
             >;
-
-            label = "symbol";
         };
 
         reset {
