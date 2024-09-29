@@ -1,4 +1,3 @@
-# configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   raw_binding_map:
     '&sys_reset': Reset
