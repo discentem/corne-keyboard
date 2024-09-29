@@ -118,10 +118,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC  &trans  &kp LC(E)  &kp LC(R)         &kp LS(LG(KP_NUMBER_5))    &trans  &trans          &kp UP_ARROW    &zoom_out        &zoom_in   &trans
-&trans  &kp TAB  &trans  &trans     &kp LEFT_COMMAND  &trans                     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER  &kp RET
-&trans  &trans   &trans  &trans     &trans            &trans                     &trans  &trans          &trans          &trans           &trans     &trans
-                         &trans     &trans            &trans                     &trans  &trans          &trans
+&trans  &kp ESC  &trans  &kp LC(E)  &kp LC(R)  &kp LS(LG(KP_NUMBER_5))    &trans  &trans          &kp UP_ARROW    &zoom_out        &zoom_in   &trans
+&trans  &kp TAB  &trans  &trans     &kp ESC    &trans                     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER  &kp RET
+&trans  &trans   &trans  &trans     &trans     &trans                     &trans  &trans          &trans          &trans           &trans     &trans
+                         &trans     &trans     &trans                     &trans  &trans          &trans
             >;
         };
 
@@ -143,11 +143,12 @@
         };
 
         symbols {
-#ifdef KEYMAP_DRAWER
+            #ifdef KEYMAP_DRAWER
                 display-name = "Symbol";
 #else
                 display-name = "Symbols";
 #endif
+
             bindings = <
 &trans  &kp Q      &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
 &trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &kp ENTER
