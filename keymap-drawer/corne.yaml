@@ -12,17 +12,17 @@ layers:
   - I
   - O
   - P
-  - ⌫
+  - BACK
   - Media
   - A
-  - {t: S, h: Ctrl}
-  - {t: D, h: LEFT ALT}
-  - {t: F, h: LEFT COMMAND}
+  - CTRL / S
+  - ALT / D
+  - CMD / F
   - G
   - H
-  - {t: J, h: LEFT COMMAND}
-  - {t: K, h: RIGHT ALT}
-  - {t: L, h: Ctrl}
+  - CMD / J
+  - ALT / K
+  - CTRL / L
   - {t: ;, h: Media}
   - ''''
   - ''
@@ -41,7 +41,7 @@ layers:
   - {t: Shift, h: sticky}
   - Numrow
   - Symbols
-  - {t: ␣, h: Nav}
+  - {t: SPACE, h: Nav}
   - ''
   Nav:
   - {t: ▽, type: trans}
@@ -49,25 +49,25 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+ E
   - Ctl+ R
-  - Sft+Gui+ KP 5
+  - SCREEN SHOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↑
-  - '&zoom_out'
-  - '&zoom_in'
+  - UP
+  - Zoom Out
+  - Zoom In
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT COMMAND
+  - CMD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - →
+  - LEFT
+  - DOWN
+  - RIGHT
   - ENTER
-  - ⏎
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,11 +94,11 @@ layers:
   - '9'
   - '-'
   - {t: ▽, type: trans}
-  - MUTE
-  - VOLUME UP
+  - Mute
+  - Vol Up
   - O
   - P
-  - ⌫
+  - BACK
   - {type: held}
   - {t: ▽, type: trans}
   - '4'
@@ -107,7 +107,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - J
-  - VOLUME DOWN
+  - Vol Down
   - L
   - ''
   - ''''
@@ -141,7 +141,7 @@ layers:
   - KP MINUS
   - '['
   - ']'
-  - ⌫
+  - BACK
   - {t: ▽, type: trans}
   - ':'
   - '~'
@@ -227,7 +227,7 @@ layers:
   - '*'
   - (
   - )
-  - ⌫
+  - BACK
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ⌫
+  - BACK
   - ENTER
   - {t: ▽, type: trans}
 combos:
