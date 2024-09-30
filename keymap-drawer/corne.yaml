@@ -109,7 +109,7 @@ layers:
   - J
   - Vol Down
   - L
-  - ''
+  - {t: ▽, type: trans}
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -239,19 +239,19 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''''
   - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: Shift, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
