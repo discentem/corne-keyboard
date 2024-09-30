@@ -15,14 +15,14 @@ layers:
   - BACK
   - Media
   - A
-  - S (CTRL)
-  - D (ALT)
+  - {t: S, h: Ctrl}
+  - {t: D, h: Alt}
   - {t: F, h: CMD}
   - G
   - H
-  - J (CMD)
-  - K (ALT)
-  - L (CTRL)
+  - {t: J, h: CMD}
+  - {t: K, h: Alt}
+  - {t: L, h: Ctrl}
   - {t: ;, h: Media}
   - ''''
   - ''
