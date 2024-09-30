@@ -15,8 +15,8 @@ layers:
   - BACK
   - Media
   - A
-  - CTRL / (S)
-  - ALT / (D)
+  - S (CTRL)
+  - D (ALT)
   - {t: F, h: CMD}
   - G
   - H
