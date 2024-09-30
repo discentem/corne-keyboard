@@ -17,12 +17,12 @@ layers:
   - A
   - CTRL / S
   - ALT / D
-  - CMD / F
+  - F / (CMD)
   - G
   - H
-  - CMD / J
-  - ALT / K
-  - CTRL / L
+  - J / (CMD)
+  - K / (ALT)
+  - L / (CTRL)
   - {t: ;, h: Media}
   - ''''
   - ''
