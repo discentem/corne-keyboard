@@ -1,9 +1,9 @@
 parse_config:
   raw_binding_map:
-    '&hm LCTRL S': "CTRL / (S)"
-    '&hm LEFT_ALT D': "ALT / (D)"
+    '&hm LCTRL S': "S (CTRL)"
+    '&hm LEFT_ALT D': "D (ALT)"
     '&hm LEFT_COMMAND J': "J (CMD)"
-    '&hm RIGHT_ALT K': "K (ALT)" 
+    '&hm RIGHT_ALT K': "K (ALT)"
     '&hm RCTRL L': "L (CTRL)"
     '&zoom_in': "Zoom In"
     '&zoom_out': "Zoom Out"
