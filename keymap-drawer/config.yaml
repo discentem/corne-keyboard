@@ -1,11 +1,10 @@
 parse_config:
   raw_binding_map:
-    '&hm LCTRL S': "CTRL / S"
-    '&hm LEFT_ALT D': "ALT / D"
-    '&hm LEFT_COMMAND F': "F / (CMD)"
-    '&hm LEFT_COMMAND J': "J / (CMD)"
-    '&hm RIGHT_ALT K': "K / (ALT)" 
-    '&hm RCTRL L': "L / (CTRL)"
+    '&hm LCTRL S': "CTRL / (S)"
+    '&hm LEFT_ALT D': "ALT / (D)"
+    '&hm LEFT_COMMAND J': "J (CMD)"
+    '&hm RIGHT_ALT K': "K (ALT)" 
+    '&hm RCTRL L': "L (CTRL)"
     '&zoom_in': "Zoom In"
     '&zoom_out': "Zoom Out"
     '&kp LS(LG(KP_NUMBER_5))': "SCREEN SHOT"
