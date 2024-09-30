@@ -15,14 +15,14 @@ layers:
   - BACK
   - Media
   - A
-  - CTRL / S
-  - ALT / D
-  - F / (CMD)
+  - CTRL / (S)
+  - ALT / (D)
+  - {t: F, h: CMD}
   - G
   - H
-  - J / (CMD)
-  - K / (ALT)
-  - L / (CTRL)
+  - J (CMD)
+  - K (ALT)
+  - L (CTRL)
   - {t: ;, h: Media}
   - ''''
   - ''
