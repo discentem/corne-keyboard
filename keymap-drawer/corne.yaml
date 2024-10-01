@@ -98,7 +98,7 @@ layers:
   - Vol Up
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACK
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - '4'
@@ -110,7 +110,7 @@ layers:
   - Vol Down
   - L
   - {t: ▽, type: trans}
-  - ''''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -141,7 +141,7 @@ layers:
   - '-'
   - '['
   - ']'
-  - BACK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
   - '~'
