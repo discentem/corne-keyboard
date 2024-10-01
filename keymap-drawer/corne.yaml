@@ -96,8 +96,8 @@ layers:
   - {t: ▽, type: trans}
   - Mute
   - Vol Up
-  - O
-  - P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BACK
   - {type: held}
   - {t: ▽, type: trans}
