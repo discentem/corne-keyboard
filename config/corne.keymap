@@ -135,8 +135,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS    &trans  &kp K_MUTE  &kp C_VOLUME_UP    &trans  &trans  &kp BACKSPACE
-&trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0       &trans  &kp J       &kp C_VOLUME_DOWN  &kp L   &trans  &kp APOSTROPHE
+&trans  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS    &trans  &kp K_MUTE  &kp C_VOLUME_UP    &trans  &trans  &trans
+&trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0       &trans  &kp J       &kp C_VOLUME_DOWN  &kp L   &trans  &trans
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS     &trans  &trans      &trans             &trans  &trans  &trans
                               &trans        &trans        &trans       &trans  &trans      &trans
             >;
@@ -150,7 +150,7 @@
 #endif
 
             bindings = <
-&trans  &kp PIPE   &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
+&trans  &kp PIPE   &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans  &kp COLON  &kp TILDE     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &kp ENTER
 &trans  &kp TILDE  &kp POUND     &kp AT          &kp LEFT_BRACKET      &kp SLASH      &kp BACKSLASH  &kp POUND              &kp CARET        &kp PERIOD        &kp SLASH          &trans
                                  &trans          &trans                &trans         &trans         &trans                 &trans
