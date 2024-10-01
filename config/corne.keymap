@@ -135,7 +135,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS    &trans  &kp K_MUTE  &kp C_VOLUME_UP    &kp O   &kp P   &kp BACKSPACE
+&trans  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS    &trans  &kp K_MUTE  &kp C_VOLUME_UP    &trans  &trans  &kp BACKSPACE
 &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0       &trans  &kp J       &kp C_VOLUME_DOWN  &kp L   &trans  &kp APOSTROPHE
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS     &trans  &trans      &trans             &trans  &trans  &trans
                               &trans        &trans        &trans       &trans  &trans      &trans
