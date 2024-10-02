@@ -42,14 +42,14 @@ layers:
   - Numrow
   - Symbol
   - {t: SPACE, h: Nav}
-  - ''
+  - Reset
   Nav:
   - {t: ▽, type: trans}
   - Esc
   - {t: ▽, type: trans}
   - Ctl+ E
   - Ctl+ R
-  - SCREEN SHOT
+  - Sft+Gui+ 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
