@@ -202,7 +202,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RESET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '2'}
