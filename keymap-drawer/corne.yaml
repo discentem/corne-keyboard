@@ -53,8 +53,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
-  - Zoom Out
-  - Zoom In
+  - Gui+ KP SUBTRACT
+  - Gui+ +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
