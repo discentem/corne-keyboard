@@ -4,7 +4,8 @@ parse_config:
     '&zoom_out': "Zoom Out"
     '&kp LS(LG(KP_NUMBER_5))': "SCREEN SHOT"
     '&bootloader': "RESET"
-    '&kp KP_MINUS': "-"
+    '&kp RG(KP_SUBTRACT)': "Zoom In"
+    '&kp RG(KP_SUBTRACT)': "Zoom Out"
 
 
   zmk_keycode_map:
