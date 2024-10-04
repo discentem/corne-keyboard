@@ -4,6 +4,7 @@ parse_config:
     '&kp RG(PLUS)': "Zoom In"
     '&kp RG(KP_SUBTRACT)': "Zoom Out"
     '&kp LS(LG(N5))': "SCREEN SHOT"
+    '&kp KP_MINUS': "-"
 
   zmk_keycode_map:
     # custom mappings
