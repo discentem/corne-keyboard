@@ -138,7 +138,7 @@ layers:
   - '%'
   - $
   - _
-  - KP MINUS
+  - '-'
   - '['
   - ']'
   - {t: ▽, type: trans}
