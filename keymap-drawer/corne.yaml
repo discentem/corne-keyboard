@@ -54,7 +54,7 @@ layers:
   - {t: ▽, type: trans}
   - UP
   - Zoom Out
-  - Gui+ +
+  - Zoom In
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
