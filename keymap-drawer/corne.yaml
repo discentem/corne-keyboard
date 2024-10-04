@@ -53,7 +53,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
-  - Gui+ KP SUBTRACT
+  - Zoom Out
   - Gui+ +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - '%'
   - $
   - _
-  - '-'
+  - KP MINUS
   - '['
   - ']'
   - {t: ▽, type: trans}
