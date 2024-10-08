@@ -80,6 +80,16 @@
             bindings = <&kp RG(C)>;
             key-positions = <19 27>;
         };
+
+        js_save {
+            bindings = <&kp RG(S)>;
+            key-positions = <19 14>;
+        };
+
+        jx_cut {
+            bindings = <&kp RG(X)>;
+            key-positions = <19 26>;
+        };
     };
 
     //
