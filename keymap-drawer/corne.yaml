@@ -264,3 +264,7 @@ combos:
   l: [Main]
 - p: [19, 27]
   k: Gui+ C
+- p: [19, 14]
+  k: Gui+ S
+- p: [19, 26]
+  k: Gui+ X
