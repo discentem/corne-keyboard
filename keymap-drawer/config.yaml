@@ -5,6 +5,7 @@ parse_config:
     '&kp RG(KP_SUBTRACT)': "Zoom Out"
     '&kp LS(LG(N5))': "SCREEN SHOT"
     '&kp KP_MINUS': "-"
+    '&studio_unlock': "Studio Unlock"
 
   zmk_keycode_map:
     # custom mappings
