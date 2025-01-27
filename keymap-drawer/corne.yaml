@@ -25,7 +25,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: Media}
   - ''''
-  - '&studio_unlock'
+  - Studio Unlock
   - Z
   - X
   - C
