@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   Main:
   - Reset
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: Media}
   - ''''
-  - ''
+  - '&studio_unlock'
   - Z
   - X
   - C
@@ -39,7 +39,7 @@ layers:
   - {t: Shift, h: sticky}
   - ''
   - {t: Shift, h: sticky}
-  - Numrow
+  - {t: Numrow, h: sticky}
   - Symbol
   - {t: SPACE, h: Nav}
   - Reset
@@ -47,8 +47,8 @@ layers:
   - {t: ▽, type: trans}
   - Esc
   - {t: ▽, type: trans}
-  - Ctl+ E
-  - Ctl+ R
+  - Ctl+E
+  - Ctl+R
   - SCREEN SHOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,11 +260,11 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [19, 28]
-  k: Gui+ V
+  k: Gui+V
   l: [Main]
 - p: [19, 27]
-  k: Gui+ C
+  k: Gui+C
 - p: [19, 14]
-  k: Gui+ S
+  k: Gui+S
 - p: [19, 26]
-  k: Gui+ X
+  k: Gui+X
