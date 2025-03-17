@@ -124,9 +124,9 @@
 
             bindings = <
 &trans  &kp ESC  &trans             &kp LC(E)      &kp LC(R)  &kp LS(LG(N5))    &trans  &trans          &kp UP_ARROW    &kp RG(KP_SUBTRACT)  &kp RG(PLUS)  &trans
-&trans  &kp TAB  &kp LA(BACKSPACE)  &kp BACKSPACE  &kp ESC    &kp LS(ENTER)     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp ENTER     &kp RET
+&trans  &kp TAB  &kp LA(BACKSPACE)  &kp BACKSPACE  &kp ESC    &kp LS(ENTER)     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp ENTER     &trans
 &trans  &trans   &trans             &trans         &trans     &trans            &trans  &trans          &trans          &trans               &trans        &trans
-                                    &trans         &trans     &trans            &trans  &trans          &trans
+                                    &trans         &trans     &kp ENTER         &trans  &trans          &trans
             >;
         };
 
@@ -156,7 +156,7 @@
 
             bindings = <
 &trans  &kp PIPE   &kp ASTERISK  &kp EXCL        &kp AMPERSAND         &kp PERCENT    &kp DOLLAR     &kp UNDER              &kp KP_MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp COLON  &kp LS(APOS)  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &kp ENTER
+&trans  &kp COLON  &kp LS(APOS)  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS       &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GRAVE         &kp SEMICOLON      &trans
 &trans  &kp TILDE  &kp POUND     &kp AT          &kp LEFT_BRACKET      &kp SLASH      &kp BACKSLASH  &kp POUND              &kp CARET        &kp PERIOD        &kp SLASH          &trans
                                  &trans          &trans                &kp APOS       &trans         &trans                 &trans
             >;
@@ -175,7 +175,7 @@
         numrow {
             display-name = "Numrow";
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&trans  &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp N1    &kp N2  &kp N3     &kp N4      &kp N5         &kp N6         &kp N7     &kp N8     &kp N9                &kp N0                 &trans
 &trans  &trans    &trans  &trans     &trans      &trans         &trans         &trans     &trans     &trans                &trans                 &trans
                           &trans     &trans      &trans         &kp BACKSPACE  &kp ENTER  &trans
