@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACK
+  - ''
   - Media
   - A
   - {t: S, h: Ctrl}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: Alt}
   - {t: L, h: Ctrl}
   - {t: ;, h: Media}
-  - ''''
+  - ''
   - Studio Unlock
   - Z
   - X
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: Shift, h: sticky}
+  - ''
   - ''
   - {t: Shift, h: sticky}
   - {t: Numrow, h: sticky}
   - Symbol
   - {t: SPACE, h: Nav}
-  - Reset
+  - ''
   Nav:
   - {t: ▽, type: trans}
   - Esc
@@ -58,10 +58,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+BACK
+  - BACK
   - Esc
-  - {t: ▽, type: trans}
+  - Sft+ENTER
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -144,7 +144,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
-  - '~'
+  - Sft+'
   - '{'
   - (
   - +
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,7 +197,7 @@ layers:
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - OUT BLE
+  - Studio Unlock
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
